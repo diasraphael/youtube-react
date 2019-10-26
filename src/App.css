@@ -1,22 +1,71 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.header {
+  padding: 24px;
   color: white;
+  background-color: #cc0000;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #09d3ac;
+.center {
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.checkbox {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.checkbox label, .radio label {
+  min-height: 20px;
+  padding-left: 20px;
+  margin-bottom: 0;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.checkbox input[type=checkbox], .checkbox-inline input[type=checkbox] {
+  position: absolute;
+  margin-top: 4px\9;
+  margin-left: -20px;
+}
+input[type=checkbox] {
+  margin: 4px 0 0;
+  margin-top: 1px\9;
+  line-height: normal;
+}
+input[type=checkbox] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+.btn-default {
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc !important;
+}
+.btn-default:hover {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.column-dir{
+  flex-direction: column;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #cc0000 !important;
+  border-color: #cc0000 !important;
+  margin-top: 10px;
+  font-weight: bold !important;
+}
+.btn-primary.focus, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem #cc000040 !important;
 }
