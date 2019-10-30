@@ -9,10 +9,10 @@ const MovieContainer = ({selectedMovie}) => {
         
         <div className="center">
             <div className=''>
-                <h4 className='header'>{selectedMovie.title}</h4>
+                <h6 className='header'>{selectedMovie.show}</h6>
             </div>
             <div>
-                <iframe src={movieSrc} allowFullScreen title='Video player'/>
+                <iframe src={movieSrc} allow='autoplay' title='Video player'/>
             </div>
         </div>
 

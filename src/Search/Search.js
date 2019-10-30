@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Checkbox from '../Checkbox/Checkbox';
 const items = [
-  'Late Night with Seth Myers',
+  'Late Night with Seth Meyers',
   'The Daily Show with Trevor Noah',
   'The Late Show with Stephen Colbert',
 ];

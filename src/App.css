@@ -2,6 +2,12 @@
   position: relative;
   min-height:100%;
 }
+.bold{
+  font-weight: bold;
+}
+.italic{
+  font-style: italic;
+}
 .header {
   color: white;
   background-color: #cc0000;

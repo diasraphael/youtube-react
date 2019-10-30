@@ -16,8 +16,9 @@ class MovieItem extends Component {
     return (
       <div className="center">
             <div className='card' key={this.props.movie.id} onClick={this.handleMovieClick}>
-              <span className='child'>{this.props.movie.title}</span>
-              <span className='child font-size-12'>{this.props.movie.publishedDate}</span>
+              <span className='child bold'>{this.props.movie.title}</span>
+              <span className='child italic'>{this.props.movie.show}</span>
+              <span className='child font-size-12'>{this.props.movie.displayDate}</span>
             </div>
       </div>
     );

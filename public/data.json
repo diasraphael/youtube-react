@@ -1,92 +1,107 @@
 {
     "movies": [{
-        "title": "Late Night with Seth",
+        "title": "Late Night with Seth Meyers",
+        "show": "Rudy Giuliani Butt-Dials Reporter; Trump Booed at World Series",
         "id": 1001,
-        "publishedDate":"2018-12-03",
-        "url":"https://www.youtube.com/channel/UCVTyTA7-g9nopHeHbeuvpRA"  
+        "publishedDate":"2019-10-29",
+        "url":"https://www.youtube.com/embed/NedGGsT1GEA?autoplay=1"  
     },
     {
         "title": "The Daily Show with Trevor Noah",
+        "show": "Trump Announces Killing of ISIS Leader al-Baghdadi",
         "id": 1002,
-        "publishedDate":"2015-06-03",
-        "url":"https://www.youtube.com/channel/UCwWhs_6x42TyRM4Wstoq8HA"  
+        "publishedDate":"2019-10-29",
+        "url":"https://www.youtube.com/embed/0e1hpD7ForE?autoplay=1"  
     },
     {
         "title": "The Late Show with Stephen Colbert",
         "show": "The Avengers Respond To Marvel Movie Critics",
         "id": 1003,
-        "publishedDate":"2016-03-10",
-        "url":"https://www.youtube.com/embed/uBXlbkNVXvA"  
+        "publishedDate":"2019-10-20",
+        "url":"https://www.youtube.com/embed/uBXlbkNVXvA?autoplay=1"  
     },
     {
-        "title": "Late Night with Seth Myers Episode1",
+        "title": "Late Night with Seth Meyers",
+        "show": "Crowds Boo President Trump at the World Series",
         "id": 1004,
-        "publishedDate":"1988-06-07",
-        "url":"https://www.youtube.com/channel/UCMtFAi84ehTSYSE9XoHefig"  
+        "publishedDate":"2019-10-20",
+        "url":"https://www.youtube.com/embed/N97qvZPLo30?autoplay=1"  
     },
     {
         "title": "The Late Show with Stephen Colbert",
+        "show": "Chef José Andrés Upstaged Donald Trump At World Series",
         "id": 1005,
-        "publishedDate":"2008-05-03",
-        "url":"https://www.youtube.com/channel/UCMtFAi84ehTSYSE9XoHefig"  
+        "publishedDate":"2019-10-27",
+        "url":"https://www.youtube.com/embed/2LSR5IVos50?autoplay=1"  
     },
     {
-        "title": "Late Night with Seth Myers Episode1",
+        "title": "Late Night with Seth Meyers",
+        "show": "Republicans Storm Impeachment Hearing After Bombshell Testimony",
         "id": 1006,
-        "publishedDate":"2018-07-07",
-        "url":"https://www.youtube.com/channel/UCMtFAi84ehTSYSE9XoHefig"  
+        "publishedDate":"2019-10-22",
+        "url":"https://www.youtube.com/embed/tW9099R88Ro?autoplay=1"  
     },
     {
-        "title": "The Late Show with Stephen Colbert Episode7",
+        "title": "The Late Show with Stephen Colbert",
+        "show": "You'll Never Have Another President Like Me",
         "id": 1007,
-        "publishedDate":"2005-07-03",
-        "url":"https://www.youtube.com/channel/UCVTyTA7-g9nopHeHbeuvpRA"  
+        "publishedDate":"2017-05-05",
+        "url":"https://www.youtube.com/embed/aYVlVxvGnsE?autoplay=1"  
     },
     {
-        "title": "The Late Show with Stephen Colbert6",
+        "title": "The Late Show with Stephen Colbert",
+        "show": "Trump Tries To Normalize His Criminal Behavior By Doing It In Public",
         "id": 1008,
-        "publishedDate":"1985-07-01",
-        "url":"https://www.youtube.com/channel/UCVTyTA7-g9nopHeHbeuvpRA"  
+        "publishedDate":"2015-07-07",
+        "url":"https://www.youtube.com/embed/VDhc3bK-D-o?autoplay=1" 
     },
     {
-        "title": "The Late Show with Stephen Colbert9",
+        "title": "The Late Show with Stephen Colbert",
+        "show": "Trump Wants To Out The Whistleblower, Interrogate Rep. Adam Schiff",
         "id": 1009,
-        "publishedDate":"1998-09-05",
-        "url":"https://www.youtube.com/channel/UCVTyTA7-g9nopHeHbeuvpRA"  
+        "publishedDate":"2010-06-07",
+        "url":"https://www.youtube.com/embed/5KZB6l8RY2g?autoplay=1"  
     },
     {
-        "title": "Late Night with Seth Myers Episode1",
+        "title": "Late Night with Seth Meyers",
+        "show": "Rudy Giuliani Associates Arrested as Support for Impeachment Rises",
         "id": 1010,
-        "publishedDate":"1988-06-07",
-        "url":"https://www.youtube.com/channel/UCMtFAi84ehTSYSE9XoHefig"  
+        "publishedDate":"2005-03-07",
+        "url":"https://www.youtube.com/embed/2_bKiNRah3g?autoplay=1"  
     },
     {
-        "title": "Late Night with Seth Myers Episode11",
+        "title": "Late Night with Seth Meyers",
+        "show": "Republicans Can’t Defend Trump’s Corrupt Abuses of Power",
         "id": 1011,
-        "publishedDate":"1983-05-01",
-        "url":"https://www.youtube.com/channel/UCMtFAi84ehTSYSE9XoHefig"  
+        "publishedDate":"1995-09-02",
+        "url":"https://www.youtube.com/embed/ckRgoR5JOZI?autoplay=1"  
     },
     {
-        "title": "Late Night with Seth Myers Episode12",
+        "title": "Late Night with Seth Meyers",
+        "show": "Trump Releases Damning Ukraine Memo Amid Impeachment Inquiry",
         "id": 1012,
-        "publishedDate":"1988-03-06",
-        "url":"https://www.youtube.com/channel/UCMtFAi84ehTSYSE9XoHefig"  
+        "publishedDate":"1998-04-08",
+        "url":"https://www.youtube.com/embed/PpNtPcZIk9M?autoplay=1"  
     },
     {
-        "title": "Late Night with Seth Myers Episode14",
+        "title": "Late Night with Seth Meyers",
+        "show": "Trump's Sharpie Scandal Has Triggered Multiple Investigations",
         "id": 1013,
-        "publishedDate":"1986-03-05",
-        "url":"https://www.youtube.com/channel/UCMtFAi84ehTSYSE9XoHefig"  
+        "publishedDate":"1988-03-07",
+        "url":"https://www.youtube.com/embed/7nfiyLQwXHE?autoplay=1"  
     },
     {
-        "title": "Late Night with Seth Myers Episode15",
+        "title": "Late Night with Seth Meyers",
+        "show": "Trump Keeps Lying About Hurricane Dorian and Alabama",
         "id": 1014,
-        "publishedDate":"1987-06-09",
-        "url":"https://www.youtube.com/channel/UCMtFAi84ehTSYSE9XoHefig"  
-    },{
-        "title": "Late Night with Seth Myers Episode18",
+        "publishedDate":"2013-01-02",
+        "url":"https://www.youtube.com/embed/6n7QA0Gr_oQ?autoplay=1"  
+    },
+    {
+        "title": "Late Night with Seth Meyers",
+        "show": "Donald Trump Is the Conspiracy-Theorist-in-Chief",
         "id": 1015,
-        "publishedDate":"1989-01-01",
-        "url":"https://www.youtube.com/channel/UCMtFAi84ehTSYSE9XoHefig"  
+        "publishedDate":"2019-08-07",
+        "url":"https://www.youtube.com/embed/kS87-2VRE-Y?autoplay=1"  
     }]
 }
