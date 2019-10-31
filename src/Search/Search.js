@@ -1,10 +1,5 @@
 import React, { Component } from 'react';
 import Checkbox from '../Checkbox/Checkbox';
-const items = [
-  'Late Night with Seth Meyers',
-  'The Daily Show with Trevor Noah',
-  'The Late Show with Stephen Colbert',
-];
 
 class Search extends Component {
   constructor (props) {
@@ -36,7 +31,7 @@ class Search extends Component {
   )
 
   createCheckboxes = () => (
-    items.map(this.createCheckbox)
+    this.props.showsList.map(this.createCheckbox)
   )
 
   render() {

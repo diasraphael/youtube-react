@@ -55,7 +55,7 @@ class App extends Component {
   return (
     <div className="App">
       <header className='header'>Youtube</header>
-      <Search handleSearchMovies={this.searchMovies}></Search>
+      <Search showsList={this.props.showsList} handleSearchMovies={this.searchMovies}></Search>
       <div className="container">
             <div className="row">
               <div className="col-lg-6">
@@ -65,7 +65,7 @@ class App extends Component {
                 <MovieContainer selectedMovie={this.state.selectedMovie}></MovieContainer> 
               </div>
             </div>
-          </div>
+      </div>
     </div>
   )};
 }
