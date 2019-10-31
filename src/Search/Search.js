@@ -5,7 +5,8 @@ class Search extends Component {
   constructor (props) {
     super(props)
     this.state = {
-      selectedCheckboxes: new Set()
+      selectedCheckboxes: new Set(),
+      disabled: true
     }
     this.handleSearchMovies = this.handleSearchMovies.bind(this);
   }
@@ -16,6 +17,7 @@ class Search extends Component {
     } else {
       this.state.selectedCheckboxes.add(label);
     }
+    this.state.selectedCheckboxes.size > 0 ? this.setState({disabled: false}) : this.setState({disabled: true});
   }
 
   handleSearchMovies = () => {
@@ -40,7 +42,7 @@ class Search extends Component {
         <div className="row column-dir">
           <div className="center">
               {this.createCheckboxes()}
-              <button className="btn btn-primary" onClick={this.handleSearchMovies}>Search</button>
+              <button className="btn btn-primary" disabled={this.state.disabled} onClick={this.handleSearchMovies}>Search</button>
           </div>
         </div>
       </div>
