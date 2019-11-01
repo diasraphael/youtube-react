@@ -25,11 +25,11 @@ bootstrap,moment,prop-types
 
 ## Mock Information
 
-**hardCodedShows.json**
+**1) hardCodedShows.json**
 
 Contains the shows which we will use for searching
 
-**data.json**
+**2) data.json**
 
 Contains the data in which we search for (public/data.json)
 
