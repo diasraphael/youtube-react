@@ -4,15 +4,19 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Steps to run Application
  
 **1) To clone repository**
+
 git clone https://github.com/diasraphael/youtube-react.git       
 
 **2) Traverse to the root folder**
+
 cd youtube-react        
 
 **3) To download all the dependencies from package.json to node modules**
+
 npm install            
 
 **4) To run the application**
+
 npm run start          
 
 ## npm run start:debug
