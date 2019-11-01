@@ -8,6 +8,9 @@
 .italic{
   font-style: italic;
 }
+.pointer{
+  cursor: pointer;
+}
 .header {
   color: white;
   background-color: #cc0000;
