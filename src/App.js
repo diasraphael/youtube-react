@@ -19,11 +19,18 @@ class App extends Component {
     this.handleHiddenMovies = this.handleHiddenMovies.bind(this);
   }
 
+  /* 
+    This method will set the movie to be selected and initate the 
+    movie to play
+  */
   handleMovieClick = (movie) =>{
     this.setState({selectedMovie: movie});
     this.addHiddenMovies(movie);
   }
 
+  /* 
+    This method will remove the movie you want to hide from the list
+  */
   handleHiddenMovies = (movie) =>{
     this.addHiddenMovies(movie);
     this.setState({movies: this.state.movies.filter(function(value, index, arr){
@@ -31,10 +38,18 @@ class App extends Component {
     })});
   }
 
+  /* 
+    This method will save the hidden movies in a state variable
+  */
   addHiddenMovies = (movie) =>{
     this.state.hiddenMovies.add(movie);
   }
 
+  /* 
+    This method will fetch the data from the mock file and filter to 
+    show only 10 shows at a time.This also hides the hidden movies from list
+    which we show in the output.
+  */
   searchMovies =(pattern) =>{
     // The API where we're fetching data from
     fetch('/data.json')

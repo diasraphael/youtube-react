@@ -6,7 +6,6 @@ const MovieContainer = ({selectedMovie}) => {
     }
     const movieSrc = selectedMovie.url;
     return (
-        
         <div className="center">
             <div className=''>
                 <h6 className='header'>{selectedMovie.show}</h6>
@@ -15,7 +14,6 @@ const MovieContainer = ({selectedMovie}) => {
                 <iframe src={movieSrc} allow='autoplay' title='Video player'/>
             </div>
         </div>
-
     )
 }
 export default MovieContainer;

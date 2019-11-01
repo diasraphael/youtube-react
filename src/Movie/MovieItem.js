@@ -10,10 +10,16 @@ class MovieItem extends Component {
     this.handleHiddenMovies = this.handleHiddenMovies.bind(this);
   }
 
+  /* 
+     Triggers the playback of the movie
+  */
   handleMovieClick = () => {
     this.props.handleMovieClick(this.props.movie);
   }
 
+  /* 
+     Triggers the onClick functionality to hide the movie from the list 
+  */
   handleHiddenMovies = () => {
     this.props.handleHiddenMovies(this.props.movie);
   }

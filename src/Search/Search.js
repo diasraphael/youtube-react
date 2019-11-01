@@ -11,6 +11,10 @@ class Search extends Component {
     this.handleSearchMovies = this.handleSearchMovies.bind(this);
   }
 
+  /* 
+     This method will add or remove label and enable or disable checkbox based on 
+     the selection of the checkbox
+  */
   toggleCheckbox = label => {
     if (this.state.selectedCheckboxes.has(label)) {
       this.state.selectedCheckboxes.delete(label);
@@ -20,10 +24,16 @@ class Search extends Component {
     this.state.selectedCheckboxes.size > 0 ? this.setState({disabled: false}) : this.setState({disabled: true});
   }
 
+  /* 
+     This method will form the search regex and initiate the search
+  */
   handleSearchMovies = () => {
     this.props.handleSearchMovies(new RegExp(Array.from(this.state.selectedCheckboxes).join('|'), "g"));
   }
 
+  /* 
+     checkbox component which will allow the user to select and search
+  */
   createCheckbox = label => (
     <Checkbox
             label={label}
@@ -32,6 +42,9 @@ class Search extends Component {
         />
   )
 
+  /* 
+     This will create as many checkboxes available in the list
+  */
   createCheckboxes = () => (
     this.props.showsList.map(this.createCheckbox)
   )
