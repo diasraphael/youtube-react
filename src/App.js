@@ -33,7 +33,6 @@ class App extends Component {
 
   addHiddenMovies = (movie) =>{
     this.state.hiddenMovies.add(movie);
-    console.log(this.state.hiddenMovies);
   }
 
   searchMovies =(pattern) =>{
@@ -52,8 +51,7 @@ class App extends Component {
           let matchedData = data.movies.filter(str=>str.title.match(pattern));
             // Turn your strings into dates, and then subtract them
             // to get a value that is either negative, positive, or zero.
-          matchedData = matchedData.sort((a,b) =>  new moment(b.publishedDate) - (new moment(a.publishedDate))); 
-          console.log("New array"+Array.from(this.state.hiddenMovies));
+          matchedData = matchedData.sort((a,b) =>  new moment(b.publishedDate) - (new moment(a.publishedDate)));
           matchedData = matchedData.filter(({ id: id1 }) => !Array.from(this.state.hiddenMovies).some(({ id: id2 }) => id2 === id1));
           matchedData = matchedData.slice(0,10);
           matchedData = matchedData.map((item)=>{ 
@@ -63,7 +61,6 @@ class App extends Component {
           this.setState({
             movies: matchedData
           })
-          console.log(this.state.movies);
         })
       // If we catch errors instead of a response, let's update the app
       .catch(error => console.log(error));
@@ -77,7 +74,7 @@ class App extends Component {
       <div className="container">
             <div className="row">
               <div className="col-lg-6">
-                <MovieList movies={this.state.movies} handleClick={this.handleMovieClick} handleHiddenMovies={this.handleHiddenMovies}></MovieList>
+                <MovieList movies={this.state.movies} selectedMovie={this.state.selectedMovie} handleClick={this.handleMovieClick} handleHiddenMovies={this.handleHiddenMovies}></MovieList>
               </div>
               <div className="col-lg-6">
                 <MovieContainer selectedMovie={this.state.selectedMovie}></MovieContainer> 
