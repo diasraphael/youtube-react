@@ -19,6 +19,27 @@ npm install
 
 npm run start          
 
+### Npm Modules Used
+
+bootstrap,moment,prop-types
+
+## Mock Information
+
+## hardCodedShows.json
+
+Contains the shows which we will use for searching
+
+## data.json
+
+Contains the data in which we search for (public/data.json)
+
+Late Night with Seth Meyers (contains 9 objects)
+
+The Daily Show with Trevor Noah (contains 1 object)
+
+The Late Show with Stephen Colbert (contains 5 objects)
+
+
 ## npm run start:debug
 To debug the application
 
@@ -27,3 +48,7 @@ To debug the application
 https://blog.bitsrc.io/make-a-simple-react-app-with-using-youtube-api-68fa016e5a03
 
 https://stackoverflow.com/questions/32965688/comparing-two-arrays-of-objects-and-exclude-the-elements-who-match-values-into
+
+https://reactjs.org/docs/handling-events.html
+
+https://www.robinwieruch.de/react-pass-props-to-component
