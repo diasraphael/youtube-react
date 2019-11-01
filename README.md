@@ -27,7 +27,7 @@ bootstrap,moment,prop-types
 
 **1) hardCodedShows.json**
 
-Contains the shows which we will use for searching
+Contains the shows which we will use for searching (src/assets/hardCodedShows.json)
 
 **2) data.json**
 
