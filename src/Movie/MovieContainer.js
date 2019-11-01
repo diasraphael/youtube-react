@@ -7,7 +7,7 @@ const MovieContainer = ({selectedMovie}) => {
     const movieSrc = selectedMovie.url;
     return (
         <div className="center">
-            <div className=''>
+            <div>
                 <h6 className='header'>{selectedMovie.show}</h6>
             </div>
             <div>
